@@ -10,20 +10,24 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Englebert&family=Playpen+Sans+Thai:wght@100..800&display=swap" rel="stylesheet">
     <title>My Portfolio</title>
   </head>
 
   <body>
-    <div class="">
+    <div class="top-zone">
       <div class="d-flex gap-4 justify-content-center fw-bold py-4">
-        <a class="text-primary-emphasis" href="index.html">Home</a>
-        <span>|</span>
-        <a class="text-primary-emphasis" href="Favorites.html">Favorites</a>
-        <span>|</span>
-        <a class="text-primary-emphasis" href="Gallery.html">Gallery</a>
-        <span>|</span>
-        <a class="text-primary-emphasis" href="Contact.html">Contact</a>
+        <a class="text-light" href="index.html">Home</a> <span>|</span>
+        <a class="text-light" href="Favorites.html">Favorites</a> <span>|</span>
+        <a class="text-light" href="Gallery.html">Gallery</a> <span>|</span>
+        <a class="text-light" href="Contact.html">Contact</a>
       </div>
+    </div>
+
+    <div>
+      <p class="fw-light fs-1 center mb-4 Textfont pt-4" style="color: #901b2d;">Gallery</p>
     </div>
 
     <div class="d-flex flex-wrap justify-content-center gap-4 align-items-start">
@@ -33,7 +37,7 @@
           class="card-img-top"
         />
         <div class="card-body">
-          <h3 class="card-title fw-bold">Cat</h3>
+          <h4 class="card-title fw-bold">Cat</h4>
           <p class="card-text small">
             น้องแมวสมัยยังเป็นเด็กชื่อว่า "ซีซ่า" ครับ
           </p>
@@ -68,6 +72,19 @@
 
       <div class="card" style="width: 16rem">
         <img
+          src="image/sea.jpg"
+          class="card-img-top"
+        />
+        <div class="card-body">
+          <h3 class="card-title fw-bold">Phuket Sea</h3>
+          <p class="card-text small">
+            ทะเลที่ภูเก้ตเป็นการเที่ยวครั้งสุดท้ายก่อนเปิดเทอมตอนปี 1 ครับ
+          </p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 16rem">
+        <img
           src="image/food.jpg"
           class="card-img-top"
         />
@@ -91,20 +108,6 @@
           </p>
         </div>
       </div>
-
-      <div class="card" style="width: 16rem">
-        <img
-          src="image/sea.jpg"
-          class="card-img-top"
-        />
-        <div class="card-body">
-          <h3 class="card-title fw-bold">Phuket Sea</h3>
-          <p class="card-text small">
-            ทะเลที่ภูเก้ตเป็นการเที่ยวครั้งสุดท้ายก่อนเปิดเทอมตอนปี 1 ครับ
-          </p>
-        </div>
-      </div>
-
 
     </div>
 

@@ -10,13 +10,13 @@
 }
 
 .top-zone {
-  background-color: #808080;
-  color: #4a4238;
+  background-color: black;
+  color: white;
 }
 
 .bottom-zone {
-  background-color: lightcyan ;
-  color: #4a4238;
+  background-color: white ;
+  color: #901b2d;
 }
 
 .fontx{
@@ -29,4 +29,12 @@
   font-weight: normal;
   text-decoration: none;
   margin-bottom: 0px;
+}
+
+
+.Textfont {
+  font-family: "Playpen Sans Thai", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
